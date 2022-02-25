@@ -1,3 +1,3 @@
 # My first project1
-# this is a test
-![Pictures!](Screenshot-16-19-23.png)
+# EC2 instance
+![EC2 Instance!](ec2-instance.png)
