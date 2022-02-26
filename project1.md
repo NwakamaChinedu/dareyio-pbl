@@ -24,3 +24,10 @@
 
 # Confirming that Apache is running
 ![Installing apache!](scrnshot6.png)
+
+# Opening port 80 in my EC2 instance
+![Installing apache!](scrnshot9.png)
+
+# It Worksss
+
+![Installing apache!](scrnshot10.png)
