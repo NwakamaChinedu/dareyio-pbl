@@ -14,6 +14,7 @@
 ![EC2 Instance!](scrnshot3.png)
 ![EC2 Instance!](scrnshot4.png)
 
+# STEP 1
 # Installing Apache web server
 # updating a list of packages in package manager
 
