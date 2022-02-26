@@ -31,3 +31,7 @@
 # It Worksss
 
 ![Installing apache!](scrnshot10.png)
+
+# STEP 2: INSTALLING MYSQL DATABASE
+# Running the installation package
+![Installing apache!](scrnshot11.png)
