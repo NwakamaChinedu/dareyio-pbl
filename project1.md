@@ -35,3 +35,6 @@
 # STEP 2: INSTALLING MYSQL DATABASE
 # Running the installation package
 ![Installing apache!](scrnshot11.png)
+
+# Connecting to MySql Server
+![Installing apache!](scrnshot12.png)
