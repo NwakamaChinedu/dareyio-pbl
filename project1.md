@@ -20,5 +20,7 @@
 ![Installing apache!](scrnshot5.png)
 
 # running apache2 package installation
+![Installing apache!](scrnshot7.png)
 
+# Confirming that Apache is running
 ![Installing apache!](scrnshot6.png)
