@@ -45,3 +45,11 @@
 
 # Checking php version after installation
 ![Installing apache!](scrnshot14.png)
+
+# STEP 4: CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE
+# Creating a dir called projectlamp in the /var/www dir
+![Installing apache!](scrnshot15.png)
+
+# Commands to create a file and read it
+![Installing apache!](scrnshot16.png)
+![Installing apache!](scrnshot17.png)
