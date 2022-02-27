@@ -50,6 +50,6 @@
 # Creating a dir called projectlamp in the /var/www dir
 ![Installing apache!](scrnshot15.png)
 
-# Commands to create a file and read it
+# Commands to create a file
 ![Installing apache!](scrnshot16.png)
 ![Installing apache!](scrnshot17.png)
