@@ -53,3 +53,9 @@
 # Commands to create a file
 ![Installing apache!](scrnshot16.png)
 ![Installing apache!](scrnshot17.png)
+
+# Other commands
+![Installing apache!](scrnshot18.png)
+
+# Final
+![Installing apache!](scrnshot19.png)
