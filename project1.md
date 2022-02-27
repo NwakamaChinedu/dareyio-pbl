@@ -38,3 +38,10 @@
 
 # Connecting to MySql Server
 ![Installing apache!](scrnshot12.png)
+
+# STEP 3: Installing PHP
+# Installing packages (PHP, PHP-mysql and libapache2-mod-php)
+![Installing apache!](scrnshot13.png)
+
+# Checking php version after installation
+![Installing apache!](scrnshot14.png)
