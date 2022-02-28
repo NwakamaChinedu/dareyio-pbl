@@ -11,3 +11,8 @@ I checked the status of my installation with the command
 
 To test the application,
 > curl http://localhost:80
+
+Calling the app on my web browser
+> http://18.217.111.82:80
+
+![Installing apache!](images/p2ss1.png)
