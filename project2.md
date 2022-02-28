@@ -4,7 +4,10 @@ To install ngnix, I ran the below commands on new ubuntu server
 2) sudo apt install nginx
 
 I checked the status of my installation with the command
-sudo systemctl status nginx
+> sudo systemctl status nginx
 
 ## Opening port 80
 ![Installing apache!](images/p2ss0.png)
+
+To test the application,
+> curl http://localhost:80
