@@ -25,3 +25,4 @@ Commands:
 3) sudo mysql
 
 ![Installing apache!](images/p2ss2.png)
+4) exit
