@@ -59,3 +59,8 @@
 
 # Final
 ![Installing apache!](scrnshot19.png)
+
+# Step 5: Enable PHP on the Website
+![Installing apache!](scrnshot20.png)
+![Installing apache!](scrnshot21.png)
+![Installing apache!](scrnshot22.png)
