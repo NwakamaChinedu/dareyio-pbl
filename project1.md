@@ -8,7 +8,7 @@
 ![EC2 Instance!](images/scrnshot1.png)
 ß
 # Changing the premissions for the private key file
-![EC2 Instance!](scrnshot2.png)
+![EC2 Instance!](images/scrnshot2.png)
 
 # Connecting to my instance
 ![EC2 Instance!](scrnshot3.png)
