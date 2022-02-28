@@ -1,11 +1,11 @@
 # Project 1: LAMP STACK IMPLEMENTATION
 # EC2 instance
-![EC2 Instance!](ec2-instance.png)
+![EC2 Instance!](images/ec2-instance.png)
 
 # Connecting to EC2 using MacOs terminal
 ß
 # Location of the pem file
-![EC2 Instance!](scrnshot1.png)
+![EC2 Instance!](images/scrnshot1.png)
 ß
 # Changing the premissions for the private key file
 ![EC2 Instance!](scrnshot2.png)
