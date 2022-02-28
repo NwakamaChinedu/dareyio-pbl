@@ -1,4 +1,4 @@
-# My first project1
+# Project 1: LAMP STACK IMPLEMENTATION
 # EC2 instance
 ![EC2 Instance!](ec2-instance.png)
 
