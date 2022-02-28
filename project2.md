@@ -26,3 +26,11 @@ Commands:
 
 ![Installing apache!](images/p2ss2.png)
 4) exit
+
+## STEP 3: Installing PHP
+Installing the needed packages:
+1) php-fpm(PHP fastCGI process manager): tells Nginx to pass PHP requests to this software for processing
+2) php-mysql: PHP module that allows PHP to communicate with MySQL-based databases
+
+command:
+> sudo apt install php-fpm php-mysql
