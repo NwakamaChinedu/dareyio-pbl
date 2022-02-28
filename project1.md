@@ -41,26 +41,26 @@
 
 # STEP 3: Installing PHP
 # Installing packages (PHP, PHP-mysql and libapache2-mod-php)
-![Installing apache!](scrnshot13.png)
+![INSTALLING MYSQL DATABASE!](scrnshot13.png)
 
 # Checking php version after installation
-![Installing apache!](scrnshot14.png)
+![INSTALLING MYSQL DATABASE!](scrnshot14.png)
 
 # STEP 4: CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE
 # Creating a dir called projectlamp in the /var/www dir
-![Installing apache!](scrnshot15.png)
+![Virtual Host!](scrnshot15.png)
 
 # Commands to create a file
-![Installing apache!](scrnshot16.png)
-![Installing apache!](scrnshot17.png)
+![Virtual Host!](scrnshot16.png)
+![Virtual Host!](scrnshot17.png)
 
 # Other commands
-![Installing apache!](scrnshot18.png)
+![Virtual Host!](scrnshot18.png)
 
 # Final
-![Installing apache!](scrnshot19.png)
+![Virtual Host!](scrnshot19.png)
 
 # Step 5: Enable PHP on the Website
-![Installing apache!](scrnshot20.png)
-![Installing apache!](scrnshot21.png)
-![Installing apache!](scrnshot22.png)
+![Enable PHP!](scrnshot20.png)
+![Enable PHP!](scrnshot21.png)
+![Enable PHP!](scrnshot22.png)
