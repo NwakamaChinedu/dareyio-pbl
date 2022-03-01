@@ -51,6 +51,23 @@ Here’s what each of these directives and location blocks do:
 5) location / — The first location block includes a try_files directive, which checks for the existence of files or directories matching a URI request. If Nginx cannot find the appropriate resource, it will return a 404 error.
 6) location ~ \.php$ — This location block handles the actual PHP processing by pointing Nginx to the fastcgi-php.conf configuration file and the php7.4-fpm.sock file, which declares what socket is associated with php-fpm.
 7) location ~ /\.ht — The last location block deals with .htaccess files, which Nginx does not process. By adding the deny all directive, if any .htaccess files happen to find their way into the document root ,they will not be served to visitors.
+
+Activate your configuration by linking to the config file from Nginx’s sites-enabled directory:
+sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/
+
+Checking for syntax error:
+sudo nginx -t
+
+Disable default nginx
+sudo unlink /etc/nginx/sites-enabled/default
+
+Reload nginx to apply chnages
+sudo systemctl reload nginx
+
+Create an index.html file in that location so that we can test that your new server block works as expected:
+
+sudo echo 'Hello LEMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectLEMP/index.html
+
 ![LEMP STACK!](images/p2ss4.png)
 
 
