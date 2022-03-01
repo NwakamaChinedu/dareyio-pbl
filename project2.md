@@ -84,6 +84,7 @@ Calling our url
 
 http://`server_domain_or_IP`/info.php
 
+![LEMP STACK!](images/p2ss5.png)
 
 
 
