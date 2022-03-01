@@ -112,4 +112,7 @@ vi /var/www/projectLEMP/todo_list.php
 ![LEMP STACK!](images/p2ss13.png)
 ![LEMP STACK!](images/p2ss14.png)
 
+## PROJECT 2 DONE
+![LEMP STACK!](images/p2done.png)
+
 
