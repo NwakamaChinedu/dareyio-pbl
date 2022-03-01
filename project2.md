@@ -76,8 +76,9 @@ To validate that Nginx can correctly hand .php files off to your PHP processor, 
 sudo vi /var/www/projectLEMP/info.php
 
 Paste the below inside the file created:
-<?php
-phpinfo()
+
+`<?php`
+`phpinfo()`
 
 Calling our url
 
