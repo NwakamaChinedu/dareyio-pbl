@@ -70,7 +70,7 @@ sudo echo 'Hello LEMP from hostname' $(curl -s http://169.254.169.254/latest/met
 
 ![LEMP STACK!](images/p2ss4.png)
 
-STEP 5: Testing PHP with nginx
+## STEP 5: Testing PHP with nginx
 
 To validate that Nginx can correctly hand .php files off to your PHP processor, we create a phhp file in the /var/www/projectLEMP dir
 sudo vi /var/www/projectLEMP/info.php
@@ -86,6 +86,30 @@ http://`server_domain_or_IP`/info.php
 
 ![LEMP STACK!](images/p2ss5.png)
 
+## STEP 6: Retrieving data from MySQL database with PHP
 
+In this step, I had to :
+
+1) create a database 
+![LEMP STACK!](images/p2ss6.png)
+
+2) create a user,
+![LEMP STACK!](images/p2ss7.png)
+
+3) granted the user full rights to the user
+![LEMP STACK!](images/p2ss8.png)
+
+4) connected with the user to test for rights and permissions
+![LEMP STACK!](images/p2ss9.png)
+
+5) created a table and inserted values into the table
+![LEMP STACK!](images/p2ss10.png)
+![LEMP STACK!](images/p2ss11.png)
+![LEMP STACK!](images/p2ss12.png)
+
+6) created info.php file in my domain name
+vi /var/www/projectLEMP/todo_list.php
+![LEMP STACK!](images/p2ss13.png)
+![LEMP STACK!](images/p2ss14.png)
 
 
