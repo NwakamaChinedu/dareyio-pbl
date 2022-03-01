@@ -70,6 +70,19 @@ sudo echo 'Hello LEMP from hostname' $(curl -s http://169.254.169.254/latest/met
 
 ![LEMP STACK!](images/p2ss4.png)
 
+STEP 5: Testing PHP with nginx
+
+To validate that Nginx can correctly hand .php files off to your PHP processor, we create a phhp file in the /var/www/projectLEMP dir
+sudo vi /var/www/projectLEMP/info.php
+
+Paste the below inside the file created:
+<?php
+phpinfo()
+
+Calling our url
+
+http://`server_domain_or_IP`/info.php
+
 
 
 
