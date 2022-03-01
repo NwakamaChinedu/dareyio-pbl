@@ -34,4 +34,13 @@ Installing the needed packages:
 
 command:
 > sudo apt install php-fpm php-mysql
+
+## STEP 4: Configuring Nginx to use PHP processor
+COMMANDS:
+1) sudo mkdir /var/www/projectLEMP
 ![LEMP STACK!](images/p2ss3.png)
+
+
+
+
+
