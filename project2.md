@@ -38,7 +38,12 @@ command:
 ## STEP 4: Configuring Nginx to use PHP processor
 COMMANDS:
 1) sudo mkdir /var/www/projectLEMP
+2) sudo chown -R $USER:$USER /var/www/projectLEMP
+3) sudo nano /etc/nginx/sites-available/projectLEMP
+4) cat /etc/nginx/sites-available/projectLEMP
 ![LEMP STACK!](images/p2ss3.png)
+
+![LEMP STACK!](images/p2ss4.png)
 
 
 
