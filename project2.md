@@ -8,7 +8,7 @@ I checked the status of my installation with the command
 > sudo systemctl status nginx
 
 ## Opening port 80
-![Installing apache!](images/p2ss0.png)
+![LEMP STACK!](images/p2ss0.png)
 
 To test the application,
 > curl http://localhost:80
@@ -16,7 +16,7 @@ To test the application,
 Calling the app on my web browser
 > http://18.217.111.82:80
 
-![Installing apache!](images/p2ss1.png)
+![LEMP STACK!](images/p2ss1.png)
 
 ## STEP 2: Installing MySql
 Commands:
@@ -24,7 +24,7 @@ Commands:
 2) sudo mysql_secure_installation
 3) sudo mysql
 
-![Installing apache!](images/p2ss2.png)
+![LEMP STACK!](images/p2ss2.png)
 4) exit
 
 ## STEP 3: Installing PHP
@@ -34,3 +34,4 @@ Installing the needed packages:
 
 command:
 > sudo apt install php-fpm php-mysql
+![LEMP STACK!](images/p2ss3.png)
