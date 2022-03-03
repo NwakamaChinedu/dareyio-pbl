@@ -48,3 +48,18 @@ Opening port 5000 in EC2 platform
 Calling the url
 http://3.136.86.145:5000
 ![MERN STACK!](images/p3ss6.png)
+
+
+There are three actions that our To-Do application needs to be able to do:
+
+Create a new task
+Display list of all tasks
+Delete a completed task
+
+creating routes, we execute the below commands:
+1) mkdir routes
+2) cd routes
+3) touch api.js
+4) vi api.js
+
+![MERN STACK!](images/p3ss7.png)
