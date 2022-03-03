@@ -31,10 +31,20 @@ node -v
 Verify the node installation
 npm -v
 
-Creating a directory  for To-Do rpoject
+Creating a directory  for To-Do project
 mkdir Todo
 cd Todo
 npm init
 
 ![MERN STACK!](images/p3ss3.png)
 
+Start the application; in the Todo directory, run the command below
+1) node index.js
+![MERN STACK!](images/p3ss4.png)
+
+Opening port 5000 in EC2 platform
+![MERN STACK!](images/p3ss5.png)
+
+Calling the url
+http://3.136.86.145:5000
+![MERN STACK!](images/p3ss6.png)
