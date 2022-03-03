@@ -63,3 +63,17 @@ creating routes, we execute the below commands:
 4) vi api.js
 
 ![MERN STACK!](images/p3ss7.png)
+
+## Models
+
+Models make javaScript applications interactive with the database. It is used to create shemas of the database whhich are basically a blueprint of how the database will be constructed, including other data fields that may not be required to be stored in the database.
+
+To create a model and a schema, we need to install mongoose
+A Node.js package that makes working with mongodb easier.
+Commands:
+
+1) npm install mongoose
+2) mkdir models && cd models && touch todo.js
+
+![MERN STACK!](images/p3ss8.png)
+![MERN STACK!](images/p3ss9.png)
