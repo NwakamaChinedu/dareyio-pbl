@@ -84,3 +84,34 @@ Commands:
 >> Creating network access:
 ![MERN STACK!](images/p3ss11.png)
 The image shows that any IP can connect to my cluster. I have done this because it is a test environment. In a production environment, I would grant access to the autorized IPs.
+
+.env file
+![MERN STACK!](images/p3ss12.png)
+
+updating the index.js to reflect the use of .env so that Node.js can connect to the database.
+![MERN STACK!](images/p3ss13.png)
+
+Starting the server
+1) node index.js
+
+![MERN STACK!](images/p3ss14.png)
+
+Using Postman to execute a POST request
+![MERN STACK!](images/p3ss15.png)
+![MERN STACK!](images/p3ss17.png)
+
+Using Postman to execute a GET request
+![MERN STACK!](images/p3ss16.png)
+![MERN STACK!](images/p3ss18.png)
+
+Using Postman to execute a DELETE request
+To run a delete request, we need to pass the ID of the entry we want to delete as an argument to the url
+e.g URL: http://3.136.86.145:5000/api/todos/{ID}
+
+So to delete our second data, I will use the below url
+"http://3.136.86.145:5000/api/todos/6227ff94f36fe9c135e0b1e4"
+![MERN STACK!](images/p3ss19.png)
+
+Now when we run our GET request again, the data has been deleted:
+![MERN STACK!](images/p3ss20.png)
+![MERN STACK!](images/p3ss21.png)
