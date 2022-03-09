@@ -77,3 +77,10 @@ Commands:
 
 ![MERN STACK!](images/p3ss8.png)
 ![MERN STACK!](images/p3ss9.png)
+
+## MongoDb Database
+![MERN STACK!](images/p3ss10.png)
+
+>> Creating network access:
+![MERN STACK!](images/p3ss11.png)
+The image shows that any IP can connect to my cluster. I have done this because it is a test environment. In a production environment, I would grant access to the autorized IPs.
