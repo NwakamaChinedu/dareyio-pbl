@@ -117,3 +117,37 @@ Now when we run our GET request again, the data has been deleted:
 ![MERN STACK!](images/p3ss21.png)
 
 # We have successfully created our Backend.
+
+# Step 2: Frontend creation
+
+Creating the "client" directory with create-react-app.
+Command:
+1) npx create-react-app client (Creates a dir "client" in the Todo dir)
+
+Installing Dependencies:
+1) Install concurrently(Used to run multiple commands simultaneously from the same terminal window)
+
+npm install concurrently --save-dev
+
+2) Install nodemon (It runs and monitors the server for changes; if found, it will restart the server and load the new changes)
+
+npm install nodemon --save-dev
+
+Editting the package.json file in the Todo directory:
+
+![MERN STACK!](images/p3ss22.png)
+
+Editting the package.json file in the client directory to add "proxy": "http://localhost:5000":
+
+![MERN STACK!](images/p3ss23.png)
+
+In the Todo dir, run the command below;
+1) npm run dev
+
+![MERN STACK!](images/p3ss24.png)
+
+After this, in the EC2 instance, open up port 3000, then the app can be called through port 3000;
+
+http://3.136.86.145:3000
+
+![MERN STACK!](images/p3ss25.png)
