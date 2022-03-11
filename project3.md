@@ -151,3 +151,57 @@ After this, in the EC2 instance, open up port 3000, then the app can be called t
 http://3.136.86.145:3000
 
 ![MERN STACK!](images/p3ss25.png)
+
+Creating React components
+
+Inside the src folder of the clients directory, a sub-directory was created;
+
+mkdir components
+
+and the below files were created in it
+
+touch Input.js ListTodo.js Todo.js
+
+and the files where filled with relevant codes.
+
+Input.js
+![MERN STACK!](images/p3ss26.png)
+![MERN STACK!](images/p3ss27.png)
+
+ListTodo.js
+
+![MERN STACK!](images/p3ss28.png)
+
+Todo.js
+![MERN STACK!](images/p3ss29.png)
+![MERN STACK!](images/p3ss30.png)
+
+Installing Axios
+In ReactJS, Axios is a library that serves to create HTTP requests that are present externally.
+
+In the client folder;
+
+npm install axios
+
+In the src folder, the below files where also created:
+
+App.js
+![MERN STACK!](images/p3ss31.png)
+
+App.css
+![MERN STACK!](images/p3ss32.png)
+![MERN STACK!](images/p3ss33.png)
+![MERN STACK!](images/p3ss34.png)
+
+index.css
+![MERN STACK!](images/p3ss35.png)
+
+After all changes, in the Todo directory, start the app by running the command:
+
+npm run dev
+
+when the app starts, call the url
+http://<public-ip>:3000
+http://3.136.86.145:3000
+
+![MERN STACK!](images/p3ss36.png)
