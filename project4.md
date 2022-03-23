@@ -1,3 +1,3 @@
 # MEAN STACK IMPLEMENTATION
 ## STEP 0
-![MEAN STACK!](images/p4ss1.png)ß
+![MEAN STACK!](images/p4ss1.png)
