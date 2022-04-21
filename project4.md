@@ -58,3 +58,18 @@ https://www.codegrepper.com/code-examples/javascript/upgrade+node+12+to+14+ubunt
 and I was able to install npm
 
 ![MEAN STACK!](images/p4ss6.png)
+
+# Installing body-parser package (helps in processing JSON files passed in requests to the server.)
+
+1 sudo npm install body-parser
+
+# Creating a folder Books and initialinzing npm project in it
+
+1 mkdir Books && cd Books
+
+2 npm init
+(This creates the package.json file)
+
+Adding the server.js file
+
+![MEAN STACK!](images/p4ss7.png)
