@@ -59,11 +59,11 @@ and I was able to install npm
 
 ![MEAN STACK!](images/p4ss6.png)
 
-# Installing body-parser package (helps in processing JSON files passed in requests to the server.)
+### Installing body-parser package (helps in processing JSON files passed in requests to the server.)
 
 1 sudo npm install body-parser
 
-# Creating a folder Books and initialinzing npm project in it
+### Creating a folder Books and initialinzing npm project in it
 
 1 mkdir Books && cd Books
 
@@ -73,3 +73,56 @@ and I was able to install npm
 Adding the server.js file
 
 ![MEAN STACK!](images/p4ss7.png)
+
+## Step 3: Install Express and set up routes to the server
+Express is a minimal and flexible Node.js web application framework that provides features for web and mobile applications.
+Mongoose package provides a straight-forward, schema-based solution to model your application data. 
+
+1 sudo npm install express mongoose
+
+In the Book folder, we create an app folder and created the routes.js file
+
+1 mkdir apps && cd apps
+
+2 vi routes.js
+
+![MEAN STACK!](images/p4ss8.png)
+
+
+In the app folder, we create an models folder and created the books.js file
+
+mkdir models && cd models
+
+vi books.js
+
+![MEAN STACK!](images/p4ss9.png)
+
+In the Book folder, we create an public folder and created the script.js file
+
+1 mkdir public && cd public
+
+2 vi script.js
+
+![MEAN STACK!](images/p4ss10.png)
+
+Also created the index.html file
+
+vi index.html
+
+![MEAN STACK!](images/p4ss11.png)
+
+Back in the Books folder, start the server by running this command:
+
+node server.js
+
+![MEAN STACK!](images/p4ss12.png)
+
+To access our app from the browser, we need to open port 3300 from our aws platform:
+
+![MEAN STACK!](images/p4ss13.png)
+
+By calling the url 
+
+http://<publicip>:3300
+
+![MEAN STACK!](images/p4ss14.png)
