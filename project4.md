@@ -44,4 +44,17 @@ To install npm, you run the command below:
 1 sudo apt install -y npm
 
 but on running the command, I got the error below:
+
 ![MEAN STACK!](images/p4ss4.png)
+
+I checked my node version and it was 12.
+
+![MEAN STACK!](images/p4ss5.png)
+
+After upgrading my node, I still had same error, then I followed the steps found on the link below
+
+https://www.codegrepper.com/code-examples/javascript/upgrade+node+12+to+14+ubuntu
+
+and I was able to install npm
+
+![MEAN STACK!](images/p4ss6.png)
