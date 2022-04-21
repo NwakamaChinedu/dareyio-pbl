@@ -35,3 +35,13 @@ To install MongoDB, the below command were used
 5 sudo systemctl status mongodb
 
 The steps above installs mongoDB, starts the service and verifies the status
+
+![MEAN STACK!](images/p4ss3.png)
+
+# Installing Node package Manager
+To install npm, you run the command below:
+
+1 sudo apt install -y npm
+
+but on running the command, I got the error below:
+![MEAN STACK!](images/p4ss4.png)
